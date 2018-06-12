@@ -1,0 +1,252 @@
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/material-design-icons/MaterialIcons-Regular.eot);
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../font/material-design-icons/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../font/material-design-icons/MaterialIcons-Regular.woff) format('woff'),
+       url(../font/material-design-icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+.org{
+  font-weight: 900;
+  border-bottom: 3px solid teal;
+}
+
+
+/*
+.wallpaper{
+  background-image: url("../img/muro.jpg");
+  background-size: 100vw 100vh;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+*/
+
+.space{
+	font-size: 1.5em;
+	color: #0d47a1;
+}
+
+.space2{
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.redes:hover{
+  border-bottom: 3px solid black;
+}
+
+.fa{
+  color: black;
+}
+
+/*
+.fotos{
+ pacity: 0.8;
+}
+*/
+
+
+.card .card-content .cargos{
+  color: black;
+  font-size: 20px;
+}
+/*
+.card:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+*/
+
+html,body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-wrapper{
+  background-color: #006064;
+}
+
+.brand-logo{
+  margin-left: 15px;
+}
+
+.big-text{
+  font-size: 1.2em;
+}
+
+/*
+img{
+  width: 100%;
+  height: 500px;
+  max-width: 100%;
+  max-height: 500px;
+}
+*/
+
+.text-centrado{
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: 500;
+}
+
+.icono1{
+  text-align: center;
+  background-color: #00838f;
+  color: #fff;
+}
+
+.icono2{
+  text-align: center;
+  background-color: #01579b;
+  color: #fff;
+}
+
+.icono3{
+  text-align: center;
+  background-color: #bf360c;
+  color: #fff;
+}
+
+.icono4{
+  text-align: center;
+  background-color: #1a237e;
+  color: #fff;
+}
+
+.colors{
+  background-color: #1A237E;
+}
+
+.banner{
+  background: -webkit-linear-gradient(bottom, #0575E6 0%, #021B79 100%);
+  width: 100%;
+  height: 500px;
+}
+
+.move{
+  margin-left: 40px;
+}
+
+.large-text{
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.texto{
+  font-size: 2.3em;
+  text-align: center;
+  font-weight: 400;
+}
+
+.fixed-action-btn{
+  bottom: 45px;
+  right: 24px;
+}
+
+.text_center {
+  font-weight: 500;
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.text2{
+  font-size: 2.2em;
+  font-weight: 500;
+}
+
+.text3{
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  border: 0;
+}
+
+.social{
+  width: 100%;
+  height: 500px;
+  background: -webkit-linear-gradient(bottom, #141E30 0%, #243B55 100%);
+}
+
+.facebook{
+  width: 100px;
+  height: 100px;
+}
+
+#foto{
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.banner2{
+  background: -webkit-linear-gradient(bottom,
+     #7fd0c1 0%, teal 100%);
+  width: 100%;
+  height: 400px;
+}
+
+.seccion_banner{
+    height: 600px;
+}
+
+.card img:hover{
+  transform: scale(1.4);
+  transition: all 1s ease-in;
+  filter: brightness(.3);
+  color: blue;
+}
+
+.video_fondo{
+  height: 700px;
+}
+
+
+.contacto_card{
+  margin: 10px;
+  border: 0;
+}
+
+.card-panel .contacto_card .txt{
+  margin: 0;
+  border: 0;
+  position: relative;
+}
+
+.ejemplo{
+  background-image:url(../img/banner_vacio.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 600px;
+}
+
+.slider .slides img{
+  filter: brightness(.5);
+}
